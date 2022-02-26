@@ -8,7 +8,7 @@ This challenge was detailed in three parts:
 	* Display the updated text in the form and save it to the clipboard
 	* For bonus points, change case of the characters on the reverse
 
-The work in this repository meets the requirements of the challenge except for the bonus points challenge.
+The work in this repository meets the requirements of the challenge except for the bonus points challenge. This PowerShell GUI application was created sith pure PowerShell using the Windows Presentation Foundation (WPF) and without using the XAML interface.
 
 The script, ReverseForm.ps1, creates the WPF form with a text box and four buttons:
 1. **Reverse** - Reverse the string in the textbox
