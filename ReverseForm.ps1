@@ -105,6 +105,7 @@ $reverse.Add_Click({
         $revStr = $textBox.Text | Get-WordReverse
     }
     $textBox.Text = $revStr
+    Set-ClipBoard -Value $revStr
 })
 
 # Add event for the encode button
